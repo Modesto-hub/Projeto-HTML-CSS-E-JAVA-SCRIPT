@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gerador de Citações Aleatórias</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="fundo" aria-hidden="true">
+    <span class="bolha bolha--1"></span>
+    <span class="bolha bolha--2"></span>
+    <span class="bolha bolha--3"></span>
+  </div>
+
+  <canvas id="confetes" class="confetes" aria-hidden="true"></canvas>
+
+  <main class="container">
+    <section class="card" aria-labelledby="titulo">
+      <h1 id="titulo" class="card__title">Gerador de Citações Aleatórias</h1>
+
+      <div class="quote-area">
+        <p id="citacao" class="quote-area__text quote-area__text--inicial" aria-live="polite" aria-atomic="true">Clique no botão para receber uma citação.</p>
+      </div>
+
+      <button id="btn-nova-citacao" class="btn" type="button">
+        <span class="btn__icone" aria-hidden="true">✦</span>
+        Nova citação
+      </button>
+    </section>
+  </main>
+</body>
+</html>
